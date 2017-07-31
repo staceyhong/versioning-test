@@ -30,7 +30,7 @@
 #### Content
 
 * index.md - Available for all monikers in folder.
-* overivew.md - Available for all monikers in folder, with moniker specific sections and shared content.
+* overivew.md - Available for all monikers in folder; configured with moniker zones and shared content.
 * Quick Starts - Folder should have at least one item available for all monikers.
   * quick-start-1.md - Available only for some monikers; configured through file-level metadata.
   * quick-start-2.md - Available only for some monikers; configured through file-level metadata.
