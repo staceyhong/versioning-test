@@ -1,4 +1,4 @@
-# Welcome to Contoso (Active)!
+# Sample 1 (Active)!
 
 This content should display for the following monikers:
 

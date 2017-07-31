@@ -1,4 +1,4 @@
-# Welcome to Contoso (Active)!
+# Concept 1 (Active)!
 
 This content should display for the following monikers:
 

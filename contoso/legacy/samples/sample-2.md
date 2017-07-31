@@ -1,4 +1,4 @@
-# Welcome to Contoso (Lagacy)!
+# Sample 2 (Lagacy)!
 
 This content should display for the following monikers:
 

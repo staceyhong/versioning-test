@@ -1,4 +1,4 @@
-# Welcome to Contoso (Lagacy)!
+# Quick Start 1 (Lagacy)!
 
 This content should display for the following monikers:
 

@@ -1,6 +1,6 @@
 ```yaml
-breadcrumb_path: ../active/toc.json
-toc_rel: ../active/toc.json
+breadcrumb_path: ../active/toc.yml
+toc_rel: ../active/toc.yml
 uhfHeaderId: MSDocsHeader-DotNet
 searchScope:
   - Contoso
