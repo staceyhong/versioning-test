@@ -29,7 +29,11 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "titleSuffix": "Contoso", 
+      "uhfHeaderId": "MSDocsHeader-DotNet", 
+      "extendBreadcrumb": true 
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "contoso",
