@@ -1,0 +1,7 @@
+```yaml
+breadcrumb_path: ../active/toc.json
+toc_rel: ../active/toc.json
+uhfHeaderId: MSDocsHeader-DotNet
+searchScope:
+  - Contoso
+```
