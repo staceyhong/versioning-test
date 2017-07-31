@@ -1,4 +1,4 @@
-# Tutorial 2 (Lagacy)!
+# Tutorial 2 (Legacy)!
 
 This content should display for the following monikers:
 

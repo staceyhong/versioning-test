@@ -1,4 +1,4 @@
-# Overview (Lagacy)!
+# Overview (Legacy)!
 
 This Overview should display for the following monikers:
 

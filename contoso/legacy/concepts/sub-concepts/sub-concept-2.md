@@ -1,4 +1,4 @@
-# Sub Concept 2 (Lagacy)!
+# Sub Concept 2 (Legacy)!
 
 This content should display for the following monikers:
 

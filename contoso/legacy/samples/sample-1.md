@@ -1,4 +1,4 @@
-# Sample 1 (Lagacy)!
+# Sample 1 (Legacy)!
 
 This content should display for the following monikers:
 

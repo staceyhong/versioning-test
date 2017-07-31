@@ -1,4 +1,4 @@
-# Welcome to Contoso (Lagacy)!
+# Welcome to Contoso (Legacy)!
 
 This content should display for the following monikers:
 

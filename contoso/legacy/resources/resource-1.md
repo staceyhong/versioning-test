@@ -1,4 +1,4 @@
-# Resource 1 (Lagacy)!
+# Resource 1 (Legacy)!
 
 This content should display for the following monikers:
 
