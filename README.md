@@ -5,6 +5,8 @@
 * Contoso Platform (Family)
   * Contoso Server (Product)
     * contososerver-1.0 (Package)
+    * contososerver-1.1 (Package)
+    * contososerver-1.2 (Package)
     * contososerver-2.0 (Package)
     * contososerver-2.1 (Package)
   * Contoso Client (Product)
