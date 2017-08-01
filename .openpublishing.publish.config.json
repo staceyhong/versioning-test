@@ -1,7 +1,4 @@
 {
-  "build_entry_point": "op",
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "fenxu_contoso",
@@ -9,7 +6,7 @@
       "build_output_subfolder": "contoso",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["< contososerver-2.0", ">= contososerver-2.0 || >= contosoclient-1.0"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -17,9 +14,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "moniker_groups": [],
-      "version": 0
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
