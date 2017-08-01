@@ -1,4 +1,5 @@
 {
+  "build_entry_point": "op",
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "docsets_to_publish": [
@@ -8,8 +9,8 @@
       "build_output_subfolder": "contoso",
       "locale": "en-us",
       "monikers": [],
-      "moniker_groups": [],
-      "open_to_public_contributors": false,
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -17,8 +18,8 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "version": 0, 
-      "moniker_ranges": ["< contososerver-2.0", ">= contososerver-2.0 || >= contosoclient-1.0"]
+      "moniker_groups": [],
+      "version": 0
     }
   ],
   "notification_subscribers": [],
