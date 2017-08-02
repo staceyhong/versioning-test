@@ -3,11 +3,10 @@
     "content": [
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "legacy/**/*.md",
+          "legacy/**/*.yml"
         ],
         "version": "< contososerver-2.0",
-        "src": "legacy",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -19,11 +18,10 @@
       },
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "active/**/*.md",
+          "active/**/*.yml"
         ],
         "version": ">= contososerver-2.0 || >= contosoclient-1.0",
-        "src": "active",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
