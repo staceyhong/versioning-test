@@ -34,8 +34,6 @@
 * Quick Starts - Folder should have at least one item available for all monikers.
   * quick-start-1.md - Available only for some monikers; configured through file-level metadata.
   * quick-start-2.md - Available only for some monikers; configured through file-level metadata.
-
-#### Code of Conduct
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+* Tutorials - Folder should have at least one item available for all monikers.
+  * tutorial-1.md - Available for some monikers; All content in zones. No shared content. Purposefully left out file-level metadata.
+  * tutorial-1.md - Available for some monikers; All content in zones. No shared content. Purposefully left out file-level metadata.
