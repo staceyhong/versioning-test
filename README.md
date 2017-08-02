@@ -37,3 +37,9 @@
 * Tutorials - Folder should have at least one item available for all monikers.
   * tutorial-1.md - Available for some monikers; All content in zones. No shared content. Purposefully left out file-level metadata.
   * tutorial-1.md - Available for some monikers; All content in zones. No shared content. Purposefully left out file-level metadata.
+* Samples - Folder will be removed for some monikers.
+  * sample-1.md - Available for some; configured through file-level metadata.
+  * sample-2.md - Available for some; configured through file-level metadata.
+* Concepts -
+* Reference
+* Resources
