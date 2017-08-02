@@ -6,6 +6,24 @@
           "**/*.md",
           "**/*.yml"
         ],
+        "version": "< contososerver-2.0",
+        "src": "legacy",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "version": ">= contososerver-2.0 || >= contosoclient-1.0",
+        "src": "active",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -40,8 +58,7 @@
     "dest": "contoso",
     "versions": { 
       "< contososerver-2.0": { 
-        "dest": "legacy",
-        "toc_rel": "legacy/toc-different.yml"
+        "dest": "legacy"
       }, 
       ">= contososerver-2.0 || >= contosoclient-1.0": { 
         "dest": "active" 
