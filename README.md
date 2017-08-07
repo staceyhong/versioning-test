@@ -1,4 +1,4 @@
-## Microsoft Open Source Code of Conduct
+#
 
 ### Product Tree
 
@@ -41,5 +41,5 @@ The docfx.json file maps content from the legacy and active folders into similar
     * sub-concept-2.md - Available for some; configured through file-level metadata.
   * concept-1.md - Available for some; configured through file-level metadata.
   * concept-2.md - Available for some; configured through file-level metadata.
-* reference
-* resources
+* reference - TODO: demo with includes
+* resources - TODO: demo with content that nests moniker ranges, e.g. block quotes and tabs
