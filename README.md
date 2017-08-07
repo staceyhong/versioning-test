@@ -26,15 +26,20 @@ The docfx.json file maps content from the legacy and active folders into similar
 
 * index.md - Available for all monikers in folder.
 * overivew.md - Available for all monikers in folder; configured with moniker zones and shared content.
-* Quick Starts - Folder should have at least one item available for all monikers.
+* quickstarts - Folder should have at least one item available for all monikers.
   * quick-start-1.md - Available only for some monikers; configured through file-level metadata.
   * quick-start-2.md - Available only for some monikers; configured through file-level metadata.
-* Tutorials - Folder should have at least one item available for all monikers.
+* tutorials - Folder should have at least one item available for all monikers.
   * tutorial-1.md - Available for some monikers; All content in zones. No shared content. Purposefully left out file-level metadata.
   * tutorial-1.md - Available for some monikers; All content in zones. No shared content. Purposefully left out file-level metadata.
-* Samples - Folder will be removed for some monikers.
+* samples - Folder will be removed for some monikers.
   * sample-1.md - Available for some; configured through file-level metadata.
   * sample-2.md - Available for some; configured through file-level metadata.
-* Concepts -
-* Reference
-* Resources
+* concepts - Folder will be removed for some monikers
+  * sub-concepts - Folder will be removed for some monikers
+    * sub-concept-1.md - Available for some; configured through file-level metadata.
+    * sub-concept-2.md - Available for some; configured through file-level metadata.
+  * concept-1.md - Available for some; configured through file-level metadata.
+  * concept-2.md - Available for some; configured through file-level metadata.
+* reference
+* resources
