@@ -17,15 +17,10 @@
 
 #### DocFX
 
-```
-"< contososerver-2.0": { 
-  "dest": "legacy",
-  "toc_rel": "legacy/toc-different.yml"
-}, 
-">= contososerver-2.0 || >= contosoclient-1.0": { 
-  "dest": "active" 
-}
-```
+The docfx.json file maps content from the legacy and active folders into similarly named groups. These groups are then mapped to moniker ranges as follows:
+
+* `< contososerver-2.0` maps to `legacy`
+* `>= contososerver-2.0 || >= contosoclient-1.0` maps to `active`
 
 #### Content
 
