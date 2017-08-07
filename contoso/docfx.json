@@ -13,7 +13,25 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "group": "group-legacy",
+        "src": "legacy"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "group": "group-active",
+        "src": "active"
       }
     ],
     "resource": [
@@ -25,7 +43,21 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "group": "group-legacy",
+        "src": "legacy"
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ],
+        "group": "group-active",
+        "src": "active"
       }
     ],
     "overwrite": [],
@@ -38,14 +70,16 @@
     "fileMetadata": {},
     "template": [],
     "dest": "contoso",
-    "versions": { 
-      "< contososerver-2.0": { 
-        "dest": "legacy",
-        "toc_rel": "legacy/toc-different.yml"
-      }, 
-      ">= contososerver-2.0 || >= contosoclient-1.0": { 
-        "dest": "active" 
-      } 
+    "groups": {
+      "group-legacy": {
+        "dest": "group-legacy-dest",
+        "toc_rel": "./toc-different.yml",
+        "moniker_range": "< contososerver-2.0"
+      },
+      "group-active": {
+        "dest": "group-active-dest",
+        "moniker_range": ">= contososerver-2.0 || >= contosoclient-1.0"
+      }
     }
   }
 }
