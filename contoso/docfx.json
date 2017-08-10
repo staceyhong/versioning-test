@@ -3,8 +3,8 @@
     "content": [
       {
         "files": [
-          "legacy/**/*.md",
-          "legacy/**/*.yml"
+          "**/*.md",
+          "**/*.yml"
         ],
         "version": "< contososerver-2.0",
         "exclude": [
@@ -15,12 +15,13 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "legacy"
       },
       {
         "files": [
-          "active/**/*.md",
-          "active/**/*.yml"
+          "**/*.md",
+          "**/*.yml"
         ],
         "version": ">= contososerver-2.0 || >= contosoclient-1.0",
         "exclude": [
@@ -31,7 +32,8 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "active"
       }
     ],
     "resource": [
