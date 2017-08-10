@@ -1,4 +1,12 @@
 {
+  "branch_target_mapping": {
+		"master": ["Publish", "PDF"]
+	},
+  "Targets": {
+		"Pdf": {
+			"template_folder": "_themes.pdf"
+		}
+	},
   "docsets_to_publish": [
     {
       "docset_name": "fenxu_contoso",
@@ -27,7 +35,12 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master-prerelease",
       "branch_mapping": {}
-    }
+    },
+    {
+		  "path_to_root": "_themes.pdf",
+		  "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+		  "branch": "master"
+	  }
   ],
-  "need_generate_pdf_url_template": false
+  "need_generate_pdf_url_template": true
 }
