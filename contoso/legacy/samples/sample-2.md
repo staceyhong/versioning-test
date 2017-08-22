@@ -1,5 +1,5 @@
 ---
-monikerRange: >= contososerver-1.1
+monikerRange: '>= contososerver-1.1'
 ---
 
 # Sample 1 (Legacy)!

@@ -1,5 +1,5 @@
 ---
-monikerRange: >= contososerver-2.1 || > contosoclient-1.0
+monikerRange: '>= contososerver-2.1 || > contosoclient-1.0'
 ---
 
 # Concept 1 (Active)!

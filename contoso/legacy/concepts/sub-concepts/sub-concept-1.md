@@ -1,5 +1,5 @@
 ---
-monikerRange: >= contososerver-1.1
+monikerRange: '>= contososerver-1.1'
 ---
 
 # Sub Concept 1 (Legacy)!
