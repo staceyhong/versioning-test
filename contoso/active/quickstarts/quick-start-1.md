@@ -1,5 +1,5 @@
 ---
-monikerRange: contososerver-2.0 || contosoclient-1.0
+monikerRange: 'contososerver-2.0 || contosoclient-1.0'
 ---
 
 # Quick Start 1 (Active)!

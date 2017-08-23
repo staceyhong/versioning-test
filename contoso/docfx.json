@@ -46,7 +46,21 @@
           "_themes/**",
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "group": "group-legacy",
+        "src": "legacy"
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ],
+        "group": "group-active",
+        "src": "active"
       }
     ],
     "overwrite": [],
@@ -65,7 +79,7 @@
       }, 
       ">= contososerver-2.0 || >= contosoclient-1.0": { 
         "dest": "active" 
-      } 
+      }
     }
   }
 }
