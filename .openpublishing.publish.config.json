@@ -1,7 +1,5 @@
 {
   "build_entry_point": "op",
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "fenxu_contoso_ppe",
@@ -9,7 +7,7 @@
       "build_output_subfolder": "fenxu_contoso_ppe",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": [ "< contososerver-2.0", ">= contososerver-2.0 || >= contosoclient-1.0" ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -30,8 +28,13 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
+      "branch": "master-prerelease",
       "branch_mapping": {}
+    },
+    {		
+ 		  "path_to_root": "_themes.pdf",		
+ 		  "url": "https://github.com/Microsoft/templates.docs.msft.pdf",		
+  	  "branch": "master"		
     }
   ],
   "branch_target_mapping": {},
