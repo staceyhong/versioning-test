@@ -21,7 +21,7 @@ This region applies only to `contososerver-2.0`.
 
 ::: moniker range=">= contososerver-2.1 || >= contosoclient-1.0"
 
-## Constoso Server
+## Contoso Server
 
 This section applies only to `contososerver-2.1`, `contosoclient-1.0` and `contosoclient-2.0`;
 
