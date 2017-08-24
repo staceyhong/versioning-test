@@ -6,11 +6,11 @@
     {
       "docset_name": "fenxu_contoso_ppe",
       "build_source_folder": "contoso",
-      "build_output_subfolder": "contoso",
+      "build_output_subfolder": "fenxu_contoso_ppe",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": true,
+      "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
