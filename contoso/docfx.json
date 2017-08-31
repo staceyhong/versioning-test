@@ -47,7 +47,6 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "group": "group-legacy",
         "src": "legacy"
       },
       {
@@ -59,7 +58,6 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "group": "group-active",
         "src": "active"
       }
     ],
