@@ -13,6 +13,10 @@ This Overview should display for the following monikers:
 
 ::: moniker range="contososerver-2.0"
 
+## Contoso Server
+
+This region applies only to `contososerver-2.0`.
+
 ## Contoso Server 2.0
 
 This region applies only to `contososerver-2.0`.
