@@ -47,7 +47,8 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "src": "legacy"
+        "src": "legacy",
+        "group": "legacy"
       },
       {
         "files": [
@@ -58,7 +59,8 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "src": "active"
+        "src": "active",
+        "group": "active"
       }
     ],
     "overwrite": [],
