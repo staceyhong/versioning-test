@@ -6,7 +6,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "version": "< contososerver-2.0",
+        "group": "legacy",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -23,7 +23,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "version": ">= contososerver-2.0 || >= contosoclient-1.0",
+        "group": "active",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -47,7 +47,8 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "src": "legacy"
+        "src": "legacy",
+        "group": "legacy"
       },
       {
         "files": [
@@ -58,7 +59,8 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "src": "active"
+        "src": "active",
+        "group": "active"
       }
     ],
     "overwrite": [],
@@ -71,12 +73,14 @@
     "fileMetadata": {},
     "template": [],
     "dest": "contoso",
-    "versions": { 
-      "< contososerver-2.0": { 
-        "dest": "legacy"
+    "groups": {
+      "legacy": {
+        "dest": "legacy",
+        "moniker_range": "< contososerver-2.0"
       }, 
-      ">= contososerver-2.0 || >= contosoclient-1.0": { 
-        "dest": "active" 
+      "active": {
+        "dest": "active",
+        "moniker_range": ">= contososerver-2.0 || >= contosoclient-1.0"
       }
     }
   }
