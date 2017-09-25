@@ -73,6 +73,7 @@
     "fileMetadata": {},
     "template": [],
     "dest": "contoso",
+    "exportRawModel": true,
     "groups": {
       "legacy": {
         "dest": "legacy",
