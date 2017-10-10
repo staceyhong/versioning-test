@@ -1,12 +1,13 @@
 {
+  "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "contoso",
+      "docset_name": "fenxu_contoso_ppe",
       "build_source_folder": "contoso",
-      "build_output_subfolder": "contoso",
+      "build_output_subfolder": "fenxu_contoso_ppe",
       "locale": "en-us",
       "monikers": [],
-      "moniker_groups": [],
+      "moniker_ranges": [ "< contososerver-2.0", ">= contososerver-2.0 || >= contosoclient-1.0" ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -14,20 +15,31 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "moniker_ranges": ["< contososerver-2.0", ">= contososerver-2.0 || >= contosoclient-1.0"]
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
+  "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
+      "branch": "master-prerelease",
       "branch_mapping": {}
+    },
+    {		
+ 		  "path_to_root": "_themes.pdf",		
+ 		  "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+  	  "branch": "master"		
     }
   ],
-  "need_generate_pdf_url_template": false
+  "branch_target_mapping": {},
+  "need_generate_pdf_url_template": true,
+  "Targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  }
 }

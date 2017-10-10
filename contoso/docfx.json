@@ -6,15 +6,16 @@
           "**/*.md",
           "**/*.yml"
         ],
+        "group": "legacy",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "_themes/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ],
-        "group": "group-legacy",
         "src": "legacy"
       },
       {
@@ -22,15 +23,16 @@
           "**/*.md",
           "**/*.yml"
         ],
+        "group": "active",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "_themes/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ],
-        "group": "group-active",
         "src": "active"
       }
     ],
@@ -41,11 +43,12 @@
           "**/*.jpg"
         ],
         "exclude": [
+          "_themes/**",
           "**/obj/**",
           "**/includes/**"
         ],
-        "group": "group-legacy",
-        "src": "legacy"
+        "src": "legacy",
+        "group": "legacy"
       },
       {
         "files": [
@@ -56,8 +59,8 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "group": "group-active",
-        "src": "active"
+        "src": "active",
+        "group": "active"
       }
     ],
     "overwrite": [],
@@ -70,14 +73,14 @@
     "fileMetadata": {},
     "template": [],
     "dest": "contoso",
+    "exportRawModel": true,
     "groups": {
-      "group-legacy": {
-        "dest": "group-legacy-dest",
-        "toc_rel": "./toc-different.yml",
+      "legacy": {
+        "dest": "legacy",
         "moniker_range": "< contososerver-2.0"
-      },
-      "group-active": {
-        "dest": "group-active-dest",
+      }, 
+      "active": {
+        "dest": "active",
         "moniker_range": ">= contososerver-2.0 || >= contosoclient-1.0"
       }
     }
