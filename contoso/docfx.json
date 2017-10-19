@@ -35,8 +35,7 @@
         ],
         "src": "active"
       }
-    ],
-    "resource": [
+    ],    "resource": [
       {
         "files": [
           "**/*.png",
@@ -76,7 +75,7 @@
     "exportRawModel": true,
     "groups": {
       "legacy": {
-        "dest": "legacy",
+        "dest": "legacy"
       }, 
       "active": {
         "dest": "active",
