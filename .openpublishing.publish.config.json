@@ -1,4 +1,4 @@
-contososerver-2.6{
+{
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
