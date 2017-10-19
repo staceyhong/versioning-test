@@ -77,7 +77,7 @@
     "groups": {
       "legacy": {
         "dest": "legacy",
-        "moniker_range": "< contososerver-2.0"
+        "moniker_range": "<= contososerver-2.0"
       }, 
       "active": {
         "dest": "active",
