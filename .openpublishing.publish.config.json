@@ -6,8 +6,6 @@
       "build_source_folder": "contoso",
       "build_output_subfolder": "e2etestcontoso",
       "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
