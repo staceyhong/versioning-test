@@ -16,7 +16,7 @@
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ],
-        "src": "active"
+        "src": "legacy"
       },
       {
         "files": [
@@ -75,7 +75,8 @@
     "exportRawModel": true,
     "groups": {
       "legacy": {
-        "dest": "legacy"
+        "dest": "legacy",
+        "moniker_range": "<= contososerver-2.0"
       }, 
       "active": {
         "dest": "active",
