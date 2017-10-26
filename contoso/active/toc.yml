@@ -1,7 +1,0 @@
-- name: Quickstarts
-  expanded: true
-  items:
-  - name: Quick Start 1
-    href: quickstarts/quick-start-1.md
-  - name: Quick Start 2
-    href: quickstarts/quick-start-2.md
