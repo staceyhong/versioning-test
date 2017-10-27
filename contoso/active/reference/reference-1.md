@@ -2,7 +2,7 @@
 monikerRange: '>=contososerver-2.0'
 ---
 
-## Reference 2 (Active)!-inside moniker range
+## Reference 1 (Active)
 
 This content should display for the following monikers:
 
