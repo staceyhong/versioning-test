@@ -1,7 +1,7 @@
 # Reference 2 (Active)!
 
 ---
-monikerRange: 'contososerver-2.1'
+monikerRange: '>=contososerver-2.0'
 ---
 
 ## Reference 2 (Active)!-inside moniker range
