@@ -1,8 +1,9 @@
+# Reference 2 (Active)!
 ---
-monikerRange: 'contososerver-2.2'
+monikerRange: 'contososerver-2.1'
 ---
 
-# Reference 2 (Active)!
+## Reference 2 (Active)!-inside moniker range
 
 This content should display for the following monikers:
 
