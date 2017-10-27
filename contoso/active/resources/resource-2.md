@@ -21,4 +21,4 @@ This section applies only to `contosoclient-1.0`
 
 ::: moniker-end
 
-This region applies to `contososerver-2.0` `contososerver-2.0` `contosoclient-1.0` `contosoclient-2.0`
+This region applies to `contososerver-2.0` `contososerver-2.1` `contosoclient-1.0` `contosoclient-2.0`
