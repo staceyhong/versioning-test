@@ -1,9 +1,10 @@
-::: moniker range="contososerver-2.0"
+---
+monikerRange: '>=contososerver-2.0'
+---
 
-#  Reference 1 (Active)!-inside moniker zone
+## Reference 2 (Active)!-inside moniker range
 
 This content should display for the following monikers:
 
 * contososerver-2.0
-
-::: moniker-end
+* contososerver-2.1
