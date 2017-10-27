@@ -1,8 +1,16 @@
 # Resource 1 (Active)!
 
-This content should display for the following monikers:
 
-* contososerver-2.0
-* contososerver-2.1
-* contosoclient-1.0
-* contosoclient-2.0
+## Nested moniker is forbidden
+
+::: moniker range="=contososerver-2.0 "
+
+This region applies only to `contososerver-2.0`
+
+::: moniker range=">= contosoclient-1.0"
+
+This section applies only to `contosoclient-1.0` 'contosoclient-2.0'
+
+::: moniker-end
+
+::: moniker-end
