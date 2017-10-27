@@ -1,4 +1,4 @@
-# Resource 1 (Legacy)!
+# Resource 2 (Legacy)!
 
 ## Nested moniker is forbidden
 
