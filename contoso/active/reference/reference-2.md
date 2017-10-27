@@ -1,5 +1,5 @@
 ---
-monikerRange: 'contososerver-2.1'
+monikerRange: 'contososerver-2.2'
 ---
 
 # Reference 2 (Active)!
