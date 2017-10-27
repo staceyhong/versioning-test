@@ -1,5 +1,3 @@
-# Reference 1 (Active)!
-
 ::: moniker range="contososerver-2.0"
 
 #  Reference 1 (Active)!-inside moniker zone
