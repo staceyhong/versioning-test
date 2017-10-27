@@ -8,4 +8,5 @@ monikerRange: '>=contososerver-2.0'
 
 This content should display for the following monikers:
 
+* contososerver-2.0
 * contososerver-2.1
