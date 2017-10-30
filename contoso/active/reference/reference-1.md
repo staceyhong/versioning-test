@@ -1,8 +1,21 @@
+---
+monikerRange: '>=contososerver-2.0'
+---
+
 # Reference 1 (Active)!
 
-This content should display for the following monikers:
+Some shared content that is applicable only to contoso server-2.0 and above.
 
-* contososerver-2.0
-* contososerver-2.1
-* contosoclient-1.0
-* contosoclient-2.0
+::: moniker range="contososerver-2.0"
+
+## Reference 1 (Active)!
+
+Some version-specific content that applies only to contososerver-2.0...
+
+::: moniker-end
+
+::: moniker range=">= contososerver-2.1"
+# Reference 1 (Active)!
+Some version-specific content that applies only to contoso server 2.1 and above...
+
+::: moniker-end
