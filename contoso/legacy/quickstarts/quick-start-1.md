@@ -1,5 +1,5 @@
 ---
-monikerRange: 'contososerver-1.0'
+monikerRange: '< contososerver-1.0'
 ---
 
 # Quick Start 1 (Legacy)!
