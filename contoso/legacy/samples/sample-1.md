@@ -1,3 +1,5 @@
+This should display for the moniker 1.0
+
 ---
 monikerRange: '>= contososerver-1.1'
 ---
