@@ -1,4 +1,6 @@
-# This should display for the moniker 1.0
+# Moniker range place at the center of the edit page
+
+This should display for the moniker 1.0, 1.1 and 1.2
 
 ---
 monikerRange: '>= contososerver-1.1'
