@@ -7,7 +7,6 @@ monikerRange: '>= contososerver-2.1 || >=contosoclient-1.0'
 This content should display for the following monikers:
 
 * contososerver-2.1
-* contososerver-2.2
 * contosoclient-1.0
 * contosoclient-2.0
 
@@ -23,4 +22,4 @@ Some version-specific content that applies only to contoso contosoclient-2.0 and
 
 ::: moniker-end
 
-This content should display for contososerver-2.1, contososerver-2.2, contosoclient-1.0 and contosoclient-2.0
+This content should display for contososerver-2.1, contosoclient-1.0 and contosoclient-2.0
