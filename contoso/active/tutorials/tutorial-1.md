@@ -1,5 +1,6 @@
-::: moniker range="contososerver-1.0"
-
+---
+monikerRange: '=contososerver-1.0'
+---
 # Tutorial 1 (Active)!
 
 This content should display for the following monikers:
